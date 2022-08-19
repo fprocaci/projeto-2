@@ -10,7 +10,7 @@ function Navbar() {
       <nav className="flex justify-center fixed z-20 bg-white w-full">
         <div className="flex justify-center items-center w-8/12">
           <div className="flex items-center h-20 w-full ">
-            <div className="flex items-center sm:mx-10 md:mx-20 justify-between w-full">
+            <div className="flex items-center md:mx-20 justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0 ">
                 <h1 className=" font-bold text-xl cursor-pointer">
                   FPS<span className="text-blue-500"> DEV</span>
@@ -79,7 +79,7 @@ function Navbar() {
                 </h1>
               </div> */}
             </div>
-            <div className="mr-14 flex md:hidden ">
+            <div className="flex md:hidden ">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"

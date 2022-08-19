@@ -15,9 +15,9 @@ function services() {
           Experiência
         </h1>
         {/* Primeira Linha */}
-        <div className="w-8/12 flex justify-items-start items-center mx-40 gap-10 mt-20">
+        <div className="w-8/12 flex justify-center items-start mx-40 gap-10 mt-20">
           {/* Primeiro Bloco */}
-          <div className="flex  flex-col justify-center items-center">
+          <div className="w-5/12 flex flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">
               <SiJavascript className="w-10 h-10 bg-js-yellow text-gray-100 m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">
@@ -25,37 +25,48 @@ function services() {
               </h2>
             </div>
             <p className="md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis aliquid fuga, asperiores voluptas expedita nulla.
+              JavaScript® (às vezes abreviado para JS) é uma linguagem leve,
+              interpretada e baseada em objetos com funções de primeira classe,
+              mais conhecida como a linguagem de script para páginas Web, mas
+              usada também em vários outros ambientes sem browser. O JavaScript
+              é uma linguagem baseada em protótipos, multi-paradigma e dinâmica,
+              suportando estilos de orientação a objetos, imperativos e
+              declarativos (como por exemplo a programação funcional).
             </p>
           </div>
           {/* Segundo bloco */}
-          <div className="flex flex-col justify-center items-center">
+          <div className="w-5/12 flex flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">
               <SiReact className="w-10 h-10 bg-rc-blue text-gray-100 m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">ReactJS</h2>
             </div>
             <p className="md:text-base text-gray-400 md:text-center sm:text-sm sm:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis aliquid fuga, asperiores voluptas expedita nulla.
+              React faz com que a criação de UIs interativas seja uma tarefa
+              fácil. Crie views simples para cada estado na sua aplicação, e o
+              React irá atualizar e renderizar de forma eficiente apenas os
+              componentes necessários na medida em que os dados mudam. Views
+              declarativas fazem com que seu código seja mais previsível e
+              simples de depurar.
             </p>
           </div>
         </div>
         {/* Segunda Linha */}
-        <div className="w-8/12 flex justify-items-start items-center mx-40 gap-10 mt-20">
+        <div className="w-8/12 flex justify-center items-start mx-40 gap-10 mt-20">
           {/* Primeiro Bloco */}
-          <div className="flex  flex-col justify-center items-center">
+          <div className="w-5/12 flex flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">
               <SiNextdotjs className="w-10 h-10  text-gray-900 m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">NextJS</h2>
             </div>
             <p className="md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis aliquid fuga, asperiores voluptas expedita nulla.
+              O Next.js oferece a melhor experiência de desenvolvedor com todos
+              os recursos necessários para produção: renderização híbrida
+              estática e de servidor, suporte a TypeScript, agrupamento
+              inteligente, pré-busca de rota e muito mais.
             </p>
           </div>
           {/* Segundo bloco */}
-          <div className="flex flex-col justify-center items-center">
+          <div className="w-5/12 flex flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">
               <SiTailwindcss className="w-10 h-10  text-tw-blue m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">
@@ -63,15 +74,16 @@ function services() {
               </h2>
             </div>
             <p className="md:text-base text-gray-400 md:text-center sm:text-sm sm:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis aliquid fuga, asperiores voluptas expedita nulla.
+              Um framework CSS de primeira utilidade com classes como flex,
+              pt-4, text-center e rotate-90 que podem ser compostas para
+              construir qualquer design, diretamente em sua marcação.
             </p>
           </div>
         </div>
         {/* Terceira Linha */}
-        <div className="w-8/12 flex justify-items-start items-center mx-40 gap-10 mt-20">
+        <div className="w-8/12 flex justify-center items-start mx-40 gap-10 mt-20">
           {/* Primeiro Bloco */}
-          <div className="flex  flex-col justify-center items-center">
+          <div className="w-5/12 flex flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">
               <SiStyledcomponents className="w-10 h-10  text-sc-brow m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">
@@ -79,19 +91,22 @@ function services() {
               </h2>
             </div>
             <p className="md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis aliquid fuga, asperiores voluptas expedita nulla.
+              Styled-components permite que você escreva código CSS real para
+              estilizar seus componentes. Ele também remove o mapeamento entre
+              componentes e estilos – usar componentes como uma construção de
+              estilo de baixo nível não poderia ser mais fácil!
             </p>
           </div>
           {/* Segundo bloco */}
-          <div className="flex flex-col justify-center items-center">
+          <div className="w-5/12 flex flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">
               <FaNodeJs className="w-10 h-10  text-nd-green m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">NodeJS</h2>
             </div>
             <p className="md:text-base text-gray-400 md:text-center sm:text-sm sm:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis aliquid fuga, asperiores voluptas expedita nulla.
+              Como um tempo de execução JavaScript assíncrono orientado a
+              eventos, o Node.js foi projetado para criar aplicativos de rede
+              escaláveis.
             </p>
           </div>
         </div>
