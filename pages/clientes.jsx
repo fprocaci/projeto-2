@@ -8,8 +8,8 @@ import { FaApple } from "react-icons/fa";
 export default function clientes() {
   return (
     <Element id="clients" name="clients">
-      <div>
-        <div className="w-full my-20 h-auto flex flex-col justify-center items-center">
+      <div className="w-full flex justify-center">
+        <div className="w-8/12 my-8 h-auto flex flex-col justify-center items-center">
           <p className="text-sm uppercase text-gray-400">Clientes</p>
           <h1 className="text-indigo-900 text-6xl font-bold text-center">
             Meus Clientes

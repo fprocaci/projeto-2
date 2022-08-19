@@ -15,7 +15,7 @@ function services() {
           Experiência
         </h1>
         {/* Primeira Linha */}
-        <div className="flex justify-items-start items-center mx-40 gap-10 mt-20">
+        <div className="w-8/12 flex justify-items-start items-center mx-40 gap-10 mt-20">
           {/* Primeiro Bloco */}
           <div className="flex  flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">
@@ -42,7 +42,7 @@ function services() {
           </div>
         </div>
         {/* Segunda Linha */}
-        <div className="flex justify-items-start items-center mx-40 gap-10 mt-20">
+        <div className="w-8/12 flex justify-items-start items-center mx-40 gap-10 mt-20">
           {/* Primeiro Bloco */}
           <div className="flex  flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">
@@ -69,7 +69,7 @@ function services() {
           </div>
         </div>
         {/* Terceira Linha */}
-        <div className="flex justify-items-start items-center mx-40 gap-10 mt-20">
+        <div className="w-8/12 flex justify-items-start items-center mx-40 gap-10 mt-20">
           {/* Primeiro Bloco */}
           <div className="flex  flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">

@@ -7,10 +7,10 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className=" fixed z-20 bg-white w-full">
-        <div className="w-full">
+      <nav className="flex justify-center fixed z-20 bg-white w-full">
+        <div className="flex justify-center items-center w-8/12">
           <div className="flex items-center h-20 w-full ">
-            <div className="flex items-center  sm:mx-10 md:mx-20 justify-between w-full">
+            <div className="flex items-center sm:mx-10 md:mx-20 justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0 ">
                 <h1 className=" font-bold text-xl cursor-pointer">
                   FPS<span className="text-blue-500"> DEV</span>
@@ -73,11 +73,11 @@ function Navbar() {
                 </div>
               </div>
 
-              <div className="flex justify-center items-center flex-shrink-0 ">
+              {/* <div className="flex justify-center items-center flex-shrink-0 ">
                 <h1 className=" font-semibold text-lg cursor-pointer hidden md:block">
                   Say <span className="text-blue-500">hi</span>
                 </h1>
-              </div>
+              </div> */}
             </div>
             <div className="mr-14 flex md:hidden ">
               <button
@@ -188,9 +188,9 @@ function Navbar() {
                 </Link>
 
                 <Link
-                  href="/contatos"
-                  activeClass="contatos"
-                  to="contatos"
+                  href="/contacts"
+                  activeClass="contacts"
+                  to="contacts"
                   smooth={true}
                   offset={50}
                   duration={500}
