@@ -1,25 +1,15 @@
 import { AiTwotoneHeart } from "react-icons/ai";
 import { Link } from "react-scroll";
+
 export default function footer() {
   return (
     <div className="w-full h-96 bg-gray-800 flex flex-col justify-end">
       <div className="w-full flex px-10">
-        <div className="w-6/12 h-80 flex flex-col justify-start items-start px-3 py-5">
+        <div className="w-6/12 h-80 px-3 py-5 hidden lg:block">
           <h4 className="text-gray-400">SOBRE</h4>
           <p className="text-gray-400 text-justify">
-            Estou em transição de carreira de suporte técnico e infraestrutura
-            TI para desenvolvimento e devido a este meu interesse, comecei a
-            estudar por conta própria. Concluí o bootcamp oferecido na
-            plataforma da Digital Innovation One, onde estudei programação C# no
-            dotnet. Agora estou focado nas tecnologias front-end ReactJS e
-            NextJS. Também estou estudando NodeJS para back-end, desenvolvimento
-            de API em NodeJS. Ainda estou no começo, mas pretendo me aperfeiçoar
-            e me tornar um desenvolvedor completo e bem estruturado, poder
-            desenvolver aplicações e criar soluções inteligentes que ajudem não
-            só particulares e empresas. Por esse motivo, gostaria de uma
-            oportunidade de trabalhar diretamente com essas tecnologias pois
-            facilitaria meu aprendizado e minha evolução como programador.
-            Sempre tentando encontrar novos desafios e aprender coisas novas.
+            Este site foi desenvolvido por mim para apresentação do meu
+            portifólio
           </p>
         </div>
         <div className="w-3/12 h-80 flex flex-col justify-start items-start px-3 py-5">
