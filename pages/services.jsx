@@ -9,7 +9,7 @@ import { FaNodeJs } from "react-icons/fa";
 function services() {
   return (
     <Element id="services" name="services">
-      <div className="w-full my-40 h-auto flex flex-col justify-center items-center">
+      <div className="w-full my-32 h-auto flex flex-col justify-center items-center">
         <p className="text-sm uppercase text-gray-400">Minhas Skills</p>
         <h1 className="text-indigo-900 text-6xl font-bold text-center">
           Experiência
@@ -19,7 +19,7 @@ function services() {
           {/* Primeiro Bloco */}
           <div className="w-5/12 flex flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">
-              <SiJavascript className="w-10 h-10 bg-js-yellow text-gray-100 m-3 p-1 shadow-xl rounded-md" />
+              <SiJavascript className="w-10 h-10 bg-gray-100 text-js-yellow m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">
                 JavaScript
               </h2>
@@ -37,7 +37,7 @@ function services() {
           {/* Segundo bloco */}
           <div className="w-5/12 flex flex-col justify-center items-center">
             <div className="flex justify-center items-center cursor-pointer">
-              <SiReact className="w-10 h-10 bg-rc-blue text-gray-100 m-3 p-1 shadow-xl rounded-md" />
+              <SiReact className="w-10 h-10 bg-gray-100 text-rc-blue m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">ReactJS</h2>
             </div>
             <p className="md:text-base text-gray-400 md:text-center sm:text-sm sm:text-left">

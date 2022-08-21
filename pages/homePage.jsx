@@ -6,19 +6,19 @@ function homePage() {
   return (
     <Element id="home" name="home">
       <div className="w-full flex justify-center">
-        <div className="w-8/12 flex justify-between text-center md:mx-20 pt-36">
-          <div className="w-3/4 h-96 rounded-full relative px-10 hidden md:block">
+        <div className="w-8/12 flex justify-center pt-36">
+          <div className="w-3/4 h-96 rounded-full relative hidden md:block">
             <Image
               src={avatarImage}
               alt="avatarImage"
-              layout="fixed"
+              layout="responsive"
               objectFit="cover"
               className="rounded-full cursor-pointer hidden md:block"
             />
           </div>
-          <div className="flex flex-col md:ml-20 mx-10 mt-10">
+          <div className="flex flex-col justify-center items-center px-5">
             <h1 className="font-bold text-7xl text-left mb-5">
-              Olá , eu sou <span className="text-indigo-900">Fabrício</span>
+              Olá, eu sou <span className="text-indigo-900">Fabrício</span>
             </h1>
             <p className="text-left font-normal mb-5 flex-wrap">
               Tenho 42 anos, sou desenvolvedor & entusiasta por empreendedorismo
@@ -27,7 +27,7 @@ function homePage() {
             </p>
             <a
               href="#"
-              className="font-semibold text-white md:mt-10 mt-5 pt-5 bg-indigo-900 rounded-md w-60 h-16 text-lg hover:bg-black"
+              className="font-semibold text-white text-center md:mt-10 mt-5 pt-5 bg-indigo-900 rounded-md w-60 h-16 text-lg hover:bg-black"
             >
               Veja meu Portifólio
             </a>
