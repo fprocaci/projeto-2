@@ -15,9 +15,9 @@ function services() {
           Experiência
         </h1>
         {/* Primeira Linha */}
-        <div className="w-full md:w-8/12 flex flex-col justify-center items-center  sm:flex-row mx-40 gap-10 mt-20">
+        <div className="w-full md:w-8/12 flex flex-col sm:flex-row justify-center items-center sm:items-stretch mx-40 gap-10 mt-20">
           {/* Primeiro Bloco */}
-          <div className="w-10/12 sm:w-5/12 flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
+          <div className="w-10/12 sm:w-5/12 md:8/12 flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
             <div className="flex justify-center items-center cursor-pointer">
               <SiJavascript className="w-10 h-10 bg-gray-100 text-js-yellow m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">
@@ -35,7 +35,7 @@ function services() {
             </p>
           </div>
           {/* Segundo bloco */}
-          <div className="w-8/12 sm:w-5/12 h-auto flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
+          <div className="w-10/12 sm:w-5/12 h-auto flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
             <div className="flex justify-center items-center cursor-pointer">
               <SiReact className="w-10 h-10 bg-gray-100 text-rc-blue m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">ReactJS</h2>
@@ -51,9 +51,9 @@ function services() {
           </div>
         </div>
         {/* Segunda Linha */}
-        <div className="w-8/12 flex justify-center items-start mx-40 gap-10 mt-20">
+        <div className="w-full md:w-8/12 flex flex-col sm:flex-row justify-center items-center sm:items-stretch  mx-40 gap-10 mt-10">
           {/* Primeiro Bloco */}
-          <div className="w-5/12 flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
+          <div className="w-10/12 sm:w-5/12 flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
             <div className="flex justify-center items-center cursor-pointer">
               <SiNextdotjs className="w-10 h-10  text-gray-900 m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">NextJS</h2>
@@ -66,7 +66,7 @@ function services() {
             </p>
           </div>
           {/* Segundo bloco */}
-          <div className="w-5/12 flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
+          <div className="w-10/12 sm:w-5/12 flex flex-col justify-start items-center rounded-md drop-shadow-md bg-white p-5">
             <div className="flex justify-center items-center cursor-pointer">
               <SiTailwindcss className="w-10 h-10  text-tw-blue m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">
@@ -81,9 +81,9 @@ function services() {
           </div>
         </div>
         {/* Terceira Linha */}
-        <div className="w-8/12 flex justify-center items-start mx-40 gap-10 mt-20">
+        <div className="w-full md:w-8/12 flex flex-col sm:flex-row justify-center items-center sm:items-stretch mx-40 gap-10 mt-10">
           {/* Primeiro Bloco */}
-          <div className="w-5/12 flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
+          <div className="w-10/12 sm:w-5/12 flex flex-col justify-start items-center rounded-md drop-shadow-md bg-white p-5">
             <div className="flex justify-center items-center cursor-pointer">
               <SiStyledcomponents className="w-10 h-10  text-sc-brow m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">
@@ -98,7 +98,7 @@ function services() {
             </p>
           </div>
           {/* Segundo bloco */}
-          <div className="w-5/12 flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
+          <div className="w-10/12 sm:w-5/12 flex flex-col justify-start items-center rounded-md drop-shadow-md bg-white p-5">
             <div className="flex justify-center items-center cursor-pointer">
               <FaNodeJs className="w-10 h-10  text-nd-green m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">NodeJS</h2>
