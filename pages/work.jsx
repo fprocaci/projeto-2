@@ -15,7 +15,7 @@ export default function work() {
         <h2 className="text-indigo-900 text-6xl font-bold text-center">
           Meus trabalhos
         </h2>
-        <div className="w-8/12 md:flex sm:flex-col md:flex-row justify-center items-center gap-10 mt-10">
+        <div className="w-8/12 md:w-full flex flex-col md:flex-row justify-center items-center gap-10 mt-10">
           <div className="rounded w-80 h-60 shadow-xl relative">
             <Image
               src={One}
@@ -44,7 +44,7 @@ export default function work() {
             />
           </div>
         </div>
-        <div className="md:flex sm:flex-col md:flex-row justify-center items-start md:gap-10 sm:pb-10 mt-10">
+        <div className="w-8/12 md:w-full flex flex-col md:flex-row justify-center items-center gap-10 mt-10">
           <div className="rounded w-80 h-60 shadow-xl relative">
             <Image
               src={Four}

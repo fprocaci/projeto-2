@@ -7,10 +7,10 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="flex justify-center fixed z-20 bg-white w-full">
-        <div className="flex justify-center items-center w-full">
-          <div className="flex justify-center items-center h-20 w-full px-5 md:px-10">
-            <div className="flex justify-between items-center w-full lg:w-8/12">
+      <nav className=" fixed z-20 bg-white w-full">
+        <div className="w-full">
+          <div className="flex items-center justify-center h-20 w-full ">
+            <div className="md:w-8/12 flex items-center mx-4 sm:mx-10 md:mx-20 justify-between w-full">
               <div className="flex justify-center items-center flex-shrink-0 ">
                 <h1 className=" font-bold text-xl cursor-pointer">
                   FPS<span className="text-blue-500"> DEV</span>
