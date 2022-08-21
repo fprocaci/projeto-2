@@ -15,7 +15,7 @@ function services() {
           Experiência
         </h1>
         {/* Primeira Linha */}
-        <div className="w-full md:w-8/12 flex flex-col sm:flex-row justify-center items-center sm:items-stretch mx-40 gap-10 mt-20">
+        <div className="w-full md:w-8/12 flex flex-col sm:flex-row justify-center items-center sm:items-stretch mx-40 gap-10 mt-14">
           {/* Primeiro Bloco */}
           <div className="w-10/12 sm:w-5/12 md:8/12 flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
             <div className="flex justify-center items-center cursor-pointer">
