@@ -90,7 +90,7 @@ export default function footer() {
         </div>
       </div>
 
-      <div className="w-full h-16 flex justify-center items-center bg-gray-900 px-10">
+      <div className="w-full h-16 flex justify-center items-center bg-gray-900 ">
         <h1 className="text-xl text-blue-900 mr-2">Desenvolvidor com</h1>
         <AiTwotoneHeart className="text-red-600" />
         <h1 className="text-xl text-blue-900 ml-2">
