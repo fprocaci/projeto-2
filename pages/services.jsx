@@ -35,7 +35,7 @@ function services() {
             </p>
           </div>
           {/* Segundo bloco */}
-          <div className="w-10/12 sm:w-5/12 h-auto flex flex-col justify-center items-center rounded-md drop-shadow-md bg-white p-5">
+          <div className="w-10/12 sm:w-5/12 h-auto flex flex-col justify-start items-center rounded-md drop-shadow-md bg-white p-5">
             <div className="flex justify-center items-center cursor-pointer">
               <SiReact className="w-10 h-10 bg-gray-100 text-rc-blue m-3 p-1 shadow-xl rounded-md" />
               <h2 className="text-xl text-indigo-600 font-semibold">ReactJS</h2>
