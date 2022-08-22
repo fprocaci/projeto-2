@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 export default function footer() {
   return (
     <div className="w-full flex flex-col items-center bg-gray-800">
-      <div className="w-full lg:w-8/12 h-auto flex justify-center px-10">
+      <div className="w-full lg:w-8/12 h-auto flex justify-center px-5">
         <div className="w-full lg:w-6/12 flex flex-col px-1 py-7 sm:pt-5 sm:px-3 ">
           <h4 className="text-gray-400">SOBRE</h4>
           <p className="text-gray-400 text-justify">
