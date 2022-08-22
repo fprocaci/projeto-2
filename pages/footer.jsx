@@ -4,15 +4,24 @@ import { Link } from "react-scroll";
 export default function footer() {
   return (
     <div className="w-full h-96 bg-gray-800 flex flex-col justify-end">
-      <div className="w-full flex px-10">
-        <div className="w-6/12 h-80 px-3 py-5 hidden lg:block">
+      <div className="w-full flex justify-center items-center px-10">
+        <div className="w-12/12 h-80 flex flex-col justify-center px-1 sm:px-3 py-5">
           <h4 className="text-gray-400">SOBRE</h4>
           <p className="text-gray-400 text-justify">
-            Este site foi desenvolvido por mim para apresentação do meu
-            portifólio
+            Este site é uma One-Page e foi desenvolvido por mim,
+            <span className="text-gray-100">
+              {" "}
+              Fabrício Procaci Santiago,
+            </span>{" "}
+            onde apresento as stacks nas quais trabalho atualmente. Uma sessão
+            de portifólio com alguns trabalhos atualizados com essas stacks; uma
+            sessão apresentando alguns de meus clientes; um formulário de
+            contato desenvolvido com NodeJS para que os recrutadores tenham mais
+            uma possibilidade de entrarem em contato comigo e um footer
+            apresentando uma síntese do que é este site.
           </p>
         </div>
-        <div className="w-3/12 h-80 flex flex-col justify-start items-start px-3 py-5">
+        <div className="w-3/12 h-80 lg:flex lg:flex-col lg:justify-start lg:items-start px-3 py-5 hidden">
           <h4 className="text-gray-400">CATEGORIAS</h4>
           <ul className="text-gray-400">
             <li className="">JavaScript</li>
@@ -23,7 +32,7 @@ export default function footer() {
             <li className="">NodeJS</li>
           </ul>
         </div>
-        <div className="w-3/12 h-80 flex flex-col justify-start items-start  px-3 py-5">
+        <div className="w-3/12 h-80 lg:flex lg:flex-col lg:justify-start lg:items-start  px-3 py-5 hidden">
           <h4 className="text-gray-400">LINKS</h4>
           <ul className="">
             <li className="">
