@@ -3,9 +3,9 @@ import { Link } from "react-scroll";
 
 export default function footer() {
   return (
-    <div className="w-full bg-gray-800 flex flex-col justify-end">
-      <div className="w-full h-auto flex justify-center items-center px-10">
-        <div className="w-12/12 h-80 flex flex-col justify-center px-1 sm:px-3 py-5">
+    <div className="w-full flex flex-col items-center bg-gray-800">
+      <div className="w-full lg:w-8/12 h-auto flex justify-center px-10">
+        <div className="w-full lg:w-6/12 flex flex-col px-1 py-7 sm:pt-5 sm:px-3 ">
           <h4 className="text-gray-400">SOBRE</h4>
           <p className="text-gray-400 text-justify">
             Este site é uma One-Page e foi desenvolvido por mim,
@@ -21,7 +21,7 @@ export default function footer() {
             apresentando uma síntese do que é este site.
           </p>
         </div>
-        <div className="w-3/12 h-80 lg:flex lg:flex-col lg:justify-start lg:items-start px-3 py-5 hidden">
+        <div className="w-3/12 h-80 sm:h-60 lg:flex lg:flex-col lg:justify-start lg:items-start sm:pt-5 px-3  hidden">
           <h4 className="text-gray-400">CATEGORIAS</h4>
           <ul className="text-gray-400">
             <li className="">JavaScript</li>
@@ -32,7 +32,7 @@ export default function footer() {
             <li className="">NodeJS</li>
           </ul>
         </div>
-        <div className="w-3/12 h-80 lg:flex lg:flex-col lg:justify-start lg:items-start  px-3 py-5 hidden">
+        <div className="w-3/12 h-80 sm:h-60 lg:flex lg:flex-col lg:justify-start lg:items-start sm:pt-5 px-3  hidden">
           <h4 className="text-gray-400">LINKS</h4>
           <ul className="">
             <li className="">
