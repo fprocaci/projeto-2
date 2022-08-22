@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 
 export default function footer() {
   return (
-    <div className="w-full h-96 bg-gray-800 flex flex-col justify-end">
-      <div className="w-full flex justify-center items-center px-10">
+    <div className="w-full bg-gray-800 flex flex-col justify-end">
+      <div className="w-full h-auto flex justify-center items-center px-10">
         <div className="w-12/12 h-80 flex flex-col justify-center px-1 sm:px-3 py-5">
           <h4 className="text-gray-400">SOBRE</h4>
           <p className="text-gray-400 text-justify">
