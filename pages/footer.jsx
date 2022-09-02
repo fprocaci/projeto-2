@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 export default function footer() {
   return (
     <div className="w-full flex flex-col items-center bg-gray-800">
-      <div className="w-full lg:w-8/12 h-auto flex justify-center px-5">
+      <div className="w-full lg:w-8/12 h-auto flex justify-center px-3">
         <div className="w-full lg:w-6/12 flex flex-col px-1 py-7 sm:pt-5 sm:px-3 ">
           <h4 className="text-gray-400">SOBRE</h4>
           <p className="text-gray-400 text-justify">
@@ -21,7 +21,7 @@ export default function footer() {
             apresentando uma síntese do que é este site.
           </p>
         </div>
-        <div className="w-3/12 h-80 sm:h-60 lg:flex lg:flex-col lg:justify-start lg:items-start sm:pt-5 px-3  hidden">
+        <div className="w-3/12 h-80 sm:h-60 lg:flex lg:flex-col lg:justify-start lg:items-start sm:pt-5 px-3 hidden">
           <h4 className="text-gray-400">CATEGORIAS</h4>
           <ul className="text-gray-400">
             <li className="">JavaScript</li>
@@ -100,15 +100,13 @@ export default function footer() {
       </div>
 
       <div className="w-full h-16 flex justify-center items-center bg-gray-900 ">
-        <h1 className="text-xl text-blue-900 mr-2">Desenvolvidor com</h1>
-        <AiTwotoneHeart className="text-red-600" />
-        <h1 className="text-xl text-blue-900 ml-2">
-          por
+        <h1 className="text-xl text-stone-400 mr-2">Desenvolvido por</h1>
+        <h1 className="text-xl ">
           <a
             href="#"
-            className="cursor-pointer font-semibold text-indigo-900 hover:text-black"
+            className="cursor-pointer font-semibold text-stone-400 hover:text-white"
           >
-            <span> FPS DEV</span>
+            <span>FPS DEV</span>
           </a>
         </h1>
       </div>

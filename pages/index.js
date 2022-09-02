@@ -7,7 +7,7 @@ import Services from "./services";
 import Work from "./work";
 import Clientes from "./clientes";
 import Contato from "./contatos";
-import Footer from "./footer";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
